@@ -1,0 +1,74 @@
+
+
+.login section{
+	height:700px;
+	width:100%;
+	border-top:1px solid silver;
+	border-bottom:1px solid silver;
+	display:flex;
+}
+
+.imgbox_container{
+	height:490px;
+	width:600px;
+	margin:120px 0px 0px 150px;
+	padding:10px 0px 0px 0px;
+	background-image:url("../pics/lap.jpg");
+	background-repeat:no-repeat;
+	background-size:110% 90%;
+}
+
+.section_container{
+	height:310px;
+	width:400px;
+	margin:50px 0px 0px 0px;
+	border-radius:25px;
+	border:1px solid silver;
+	padding:30px 20px 0px 30px;
+}
+
+.login tr td {
+	padding:2px;	
+}
+
+.login a{
+	text-decoration:none;
+}
+
+#img_txt{
+	font-size:1.3em;
+	color:darkgray;
+	position:absolute;
+	padding:80px 0px 0px 50px;
+	font-family:Arial;
+	text-align:left;
+	font-style:bold;
+	transform:scale(2,1.5);
+}
+.login input{
+    width: 350px;
+    padding: 10px 10px;
+	border-radius:15px;
+	border:1px solid #FF9900;
+	font-size:0.9em;
+	
+}
+
+.login button {
+    background-color: #FF9900;
+	border:1px solid #FF0000;
+    color: white;
+    padding: 7px 160px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	transition-duration:0.4s;
+	border-radius:15px;
+}
+.login button:hover {
+    background-color: white;
+	border:1px solid #FF9900;
+    color: #FF9900;
+}
+

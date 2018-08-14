@@ -1,0 +1,81 @@
+.firstEditBox{
+	height:320px;
+	width:15%;
+	margin:0px 0px 100px 0px;
+	border-radius:25px;
+	border:1px solid #FF9900;
+	padding:20px 20px 0px 30px;
+}
+
+.secondEditBox{
+	height:450px;
+	width:25%;
+	margin:0px 0px 100px 0px;
+	border-radius:25px;
+	border:1px solid #FF9900;
+	padding:20px 20px 0px 30px;
+}
+
+.thirdEditBox{
+	height:240px;
+	width:15%;
+	margin:0px 0px 100px 0px;
+	border-radius:25px;
+	border:1px solid #FF9900;
+	padding:20px 20px 0px 30px;
+	
+}
+
+.txtSmall{
+	font-size:2.5em;
+	color:#FF9900;
+	font-family:Copperplate Gothic Light;
+	margin:20px 0px 0px 30px;
+	
+}
+
+td {
+	padding:10px;
+	font-family:Copperplate Gothic Light;
+}
+
+input[type=text]{
+	width: 350px;
+    padding: 10px 10px;
+	border-radius:15px;
+	border:1px solid #FF9900;
+	font-size:0.9em;
+}
+
+input[type=password]{
+	width: 350px;
+    padding: 10px 10px;
+	border-radius:15px;
+	border:1px solid #FF9900;
+	font-size:0.9em;
+}
+
+input[type=submit] {
+	width:100px;
+    background-color: #FF9900;
+	border:1px solid #FF9900;
+    color: white;
+    padding:10px 10px ;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: ;
+	transition-duration:0.4s;
+	border-radius:15px;
+}
+
+input:hover[type=submit] {
+    background-color: white;
+	border:1px solid #FF9900;
+    color: #FF9900;
+}
+
+fieldset{
+	padding:50px;
+}
+
